@@ -11,7 +11,15 @@
 	<hr>
 	DATA;
 	
-	&data <<< DATA
+	$data = <<< DATA
+	Imie: $firstName<br>
+	Nazwisko: $lastName<br>
+	<hr>
+	DATA;
+	
+	//newdoc
+	
+	echo <<< 'DATA'
 	Imie: $firstName<br>
 	Nazwisko: $lastName<br>
 	<hr>
